@@ -13,15 +13,14 @@
 
 #menubar
 { 
- /* height: 50px;*/
   width: 195px;
   float: left;
-  height: 731px;
+  height: 700px;
 } 
 
 #menulist {
   background: grey;
-  height: 681px;
+  height: 690px;
   padding: 5px 2px 5px 0px;
   margin: 0px;
   width: 193px;
@@ -51,16 +50,23 @@
 }
 
 #content{
-  margin-left: 203px;
-  margin-right: 13px;
   text-align: justify;
-  width: 1030px;
+  width: 1264px;
+  height: 700px;
+}
+
+#message_body
+{
+  float: right;
+  padding-left: 10px;
+  width: 1059px;
 }
 
 #footer
 { padding: 0 20px 0 20px;
   width: 1224px;
-  background: #F2F0E3;}
+  background: #F2F0E3;
+}
   
 #footer_content
 { 
