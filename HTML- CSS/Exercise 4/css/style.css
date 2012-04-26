@@ -88,3 +88,17 @@ h3
   text-decoration: none;
   color: #A23626;
 }
+
+#main-left-photo
+{
+    float: left;
+    margin-top: 20px;
+    padding: 5px;
+    width: 36%;
+}
+
+#main-left-content
+{
+    float: right;
+    width: 62%;
+}
