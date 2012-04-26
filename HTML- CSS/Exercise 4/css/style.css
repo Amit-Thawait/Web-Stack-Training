@@ -1,6 +1,6 @@
 body{
 	
-	background: url("http://themes.googleusercontent.com/image?id=1fupio4xM9eVxyr-k5QC5RiCJlYR35r9dXsp63RKsKt64v33poi2MvnjkX_1MULBY8BsT") repeat-x fixed center bottom #DDDDDD;
+	background: url("../images/nature.jpg") repeat-x fixed center bottom #DDDDDD;
 }
 
 #main
@@ -9,7 +9,7 @@ body{
     max-width: 80%;
     position: relative;	
 	height: auto;
-	background: url("http://www.blogblog.com/1kt/transparent/white80.png") repeat scroll left top transparent;   
+	background: url("../images/white-background.png") repeat scroll left top transparent;   
 }
 
 #header_main
