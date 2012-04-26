@@ -1,0 +1,90 @@
+body{
+	
+	background: url("http://themes.googleusercontent.com/image?id=1fupio4xM9eVxyr-k5QC5RiCJlYR35r9dXsp63RKsKt64v33poi2MvnjkX_1MULBY8BsT") repeat-x fixed center bottom #DDDDDD;
+}
+
+#main
+{
+    margin-left: 10%;
+    max-width: 80%;
+    position: relative;	
+	height: auto;
+	background: url("http://www.blogblog.com/1kt/transparent/white80.png") repeat scroll left top transparent;   
+}
+
+#header_main
+{
+    padding: 20px;
+    position: relative;
+	border: double;
+	background-color: #A23626;
+}
+
+#header
+{
+
+}
+
+h1
+{
+	color: white;
+}
+
+p,h4
+{
+	//color: #9E2C1C;
+}
+
+#main-left
+{
+    float: left;
+    margin: 7px;
+    padding: 9px;
+    width: 73%;
+	border: double;
+}
+
+#main-right
+{
+    float: right;
+    margin: 7px;
+    padding: 5px;
+	width: 20%;
+	border: double;
+}
+
+#main_content
+{
+
+}
+
+#footer
+{
+	clear: both;
+	background: #717171;
+    height: 55px;
+    padding: 7px;	
+}
+
+h3
+{
+	text-align: center;
+	color: white;
+}
+
+#menulist li 
+{
+  list-style: none;
+}
+
+#menulist li a 
+{
+  text-decoration: none;
+  color: black;
+}
+
+#menulist li a:hover 
+{
+  text-decoration: none;
+  color: #A23626;
+}
