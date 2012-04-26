@@ -1,83 +1,47 @@
-#body_content
-{
-  height: 825px;
-}
-
 #header
-{ height: 100px;
-  padding-top: 20px;
-  background: #F2F0E3;
-  text-align: center; 
-  width: 1264px;
+{ 
+  width: 1263px;
   position: fixed;
 }
 
-#menubar
-{ 
-  width: 195px;
+#body_content
+{
+  height: auto;
+}
+
+img
+{
+  height: 143px;
+  width: 1263px;
+}
+
+#message
+{
+    padding: 214px;
+    width: 824px;
+}
+
+#message_left
+{
   float: left;
-/*  height: 700px;*/
-} 
-
-#menulist {
-  background: grey;
-  height: 1375px;
-  padding: 5px 2px 5px 0px;
-  margin: 0px;
-  width: 193px;
+  height: 500px;
+  width: 600px;
 }
 
-#menulist li {
-  list-style: none;
-  border: outset windowframe;  
-  padding-bottom: 7px;
-  padding-top: 4px;
-  text-align: left; 
-  cursor: pointer
-}
-
-#menulist li a {
-  font: 19px arial;
-  text-decoration: none;
-  color: #1D1D1D;
-  padding: 5px 0px 0px 35px;
-  position: relative;
-  overflow: hidden;
-} 
-
-.current
+#message_right
 {
-  background-color: tan;
-}
-
-#content{
-  text-align: justify;
-  width: 1264px;
-  position: relative;
- /* height: 700px;*/
-}
-
-#message_body
-{
- /* float: right;*/
-  padding-left: 10px;
-  width: 1059px;
-  left: 200px;
-  position: absolute;  
-  margin-top : 111px;
+  float: right;
+  height: 500px;
+  width: 600px;
 }
 
 #footer
-{ padding: 0 20px 0 20px;
-  width: 1224px;
-  background: #F2F0E3;
+{
+  background-color: black;
   clear: both;
 }
-  
+
 #footer_content
-{ 
-  font: 18px arial;
-  height: 45px;
-  padding: 30px 0 5px 0;
-  text-align: center; 
+{
+  color: white;
 }
