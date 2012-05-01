@@ -30,9 +30,10 @@ h1
 	color: white;
 }
 
-p,h4
+h4
 {
-
+	margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 #main-left
@@ -84,6 +85,11 @@ h3
     padding-left: 10px;
 }
 
+#menulist
+{
+  padding: 0px;
+}
+
 #menulist li 
 {
   list-style: none;
@@ -118,4 +124,14 @@ a
 {
     float: right;
     width: 62%;
+}
+
+#blog
+{
+    background: none repeat scroll 0 0 #F5F6E7;
+    border: 1px solid #BCBE9F;
+    font-family: inherit;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 0 9px;
 }
