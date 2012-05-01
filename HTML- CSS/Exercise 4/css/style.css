@@ -55,7 +55,7 @@ p,h4
 
 #main-content
 {
-	height: 100%;
+	height: auto;
     width: 100%;
 	padding-bottom: 7px;
 }
