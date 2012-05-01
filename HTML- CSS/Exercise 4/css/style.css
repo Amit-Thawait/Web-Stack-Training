@@ -89,16 +89,21 @@ h3
   list-style: none;
 }
 
-#menulist li a 
+a 
 {
   text-decoration: none;
   color: black;
 }
 
-#menulist li a:hover 
+#menulist li a:hover
 {
   text-decoration: none;
   color: #A23626;
+}
+
+.current h4 a
+{
+	color: #A23626;
 }
 
 #main-left-photo
