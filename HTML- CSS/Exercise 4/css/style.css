@@ -7,7 +7,7 @@ body{
 {
     margin-left: 10%;
 	margin-right: 10%;
-    max-width: 100%;	
+   /* width: 960px;	*/
 	height: auto;
 	background: url("../images/white-background.png") repeat scroll left top transparent;   
 }
@@ -41,7 +41,7 @@ h4
     float: left;
     margin: 7px;
     padding: 9px;
-    width: 783px;
+    width: 689px;
 	border: double;
 }
 
@@ -50,7 +50,7 @@ h4
     float: right;
     margin: 7px;
     padding: 5px;
-	width: 206px;
+	width: 240px;
 	border: double;
 }
 
@@ -58,7 +58,6 @@ h4
 {
 	height: auto;
     width: 100%;
-	padding-bottom: 7px;
 }
 
 #footer
@@ -87,7 +86,7 @@ h3
 
 #menulist
 {
-  padding: 0px;
+  padding-left: 6px;
 }
 
 #menulist li 
@@ -101,13 +100,13 @@ a
   color: black;
 }
 
-#menulist li a:hover
+#menulist a:hover
 {
   text-decoration: none;
   color: #A23626;
 }
 
-.current h4 a
+.current h4 a,.current
 {
 	color: #A23626;
 }
@@ -134,4 +133,25 @@ a
     font-size: 16px;
     overflow: hidden;
     padding: 0 9px;
+}
+
+#blog_archive ul
+{
+	padding: 0px;
+	margin-left: 0px;
+}
+
+.hierarchy li
+{
+	padding-left: 10px;
+}
+
+#blog_archive
+{
+    font-size: 15px;
+}
+
+.posts li
+{
+	padding-left: 20px;
 }
