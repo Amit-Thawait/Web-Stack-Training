@@ -181,7 +181,7 @@ a
 
 #comment
 {
-
+	min-height: 60px;
 }
 
 .image-container
@@ -202,4 +202,14 @@ a
 #comments_div li
 {
    
+}
+
+#comment-box
+{
+
+}
+
+.reply
+{
+	text-decoration: underline
 }
